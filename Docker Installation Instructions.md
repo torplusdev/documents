@@ -32,12 +32,6 @@ Nickname- Nickname is some user friendly name that is used in Tor.
     mkdir -p ${torplusworkspace}
     cd ${torplusworkspace}
 
-## Login to docker registry:
-
-Use login and password is secret
-
-    echo 'ide!$QjNSF@e$8xX' | docker login --username torplusdev --password-stdin
-
 # Run IPFS client
 
 ## Pull image
