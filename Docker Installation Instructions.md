@@ -142,6 +142,8 @@ Nickname- Nickname is some user friendly name that is used in Tor.
                  </body>
                </html>" > ./static/index.html # or copy your static files
     #After starting the docker container, go to the page https://torplus.{your domain name} from the TorPlus client. 2 added video files are displayed
+    
+You can see the example [here](https://torplus.videotpdemo.com/wp-content/uploads/2022/07/helloworld.html) or download the finished html [here](https://github.com/torplusdev/helloworld.html)
 
 ## Run docker image:
 
