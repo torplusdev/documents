@@ -51,6 +51,7 @@ Nickname- Nickname is some user friendly name that is used in Tor.
     -p 28000:28080 \
     -e nickname=${nickname} \
     -e PP_ENV=prod \
+    -e PP_SINGLEHOP_HS=1 \
     -e seed=${seed} \
     -v ${PWD}/tor:/root/tor \
     -v ${PWD}/ipfs:/root/.ipfs \
